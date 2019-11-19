@@ -1,0 +1,8 @@
+# Get the first images from the test-set.
+images = dataEntreno1[0:9]
+
+# Get the true classes for those images.
+cls_true = labelsentreno1[0:9]
+
+# Plot the images and labels using our helper-function above.
+plotearImagenesEntrenadas(images=images, cls_true=cls_true, smooth=False)
